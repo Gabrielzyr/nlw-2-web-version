@@ -72,3 +72,69 @@ button#signIn-btn {
 button#signIn-btn:hover {
   text-decoration: underline;
 }
+
+
+@media(min-width: 700px) {
+  #page-register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas: 
+    "register logo"
+   
+;
+  }
+  .page-register {
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    grid-area: logo;
+  }
+  .lr-logo-container {
+    max-height: 168px;
+    max-width: 335px;
+    /* width: 335px; */
+    margin-bottom: 2rem;
+  }
+  .lr-logo-container p{
+    align-self: baseline;
+    margin: -1.5rem 0  0 0;
+    min-width: 230px;
+    font-size: 2.2rem;
+    max-height: 30px;
+    color: var(--color-text-in-primary);
+  }
+  
+
+  form  {
+    margin: 0 auto 0;
+    width: 352px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  } 
+
+  #login-fieldset {
+    width: 100%;  
+    align-self: center;
+    margin: 0;
+  }
+
+  #register-header {
+    margin-bottom: 4.1rem;
+  }
+
+  #register-header strong{
+    font-size: 3.7rem;
+  }
+
+  
+  #register-header p {
+    font-size: 1.6rem;
+    max-width: 214px;
+  }
+
+  button#signIn-btn {
+    margin-top: 4.1rem;
+  }
+}
