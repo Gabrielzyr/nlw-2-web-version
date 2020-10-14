@@ -108,7 +108,7 @@ button#signIn-btn:hover {
 
   form  {
     margin: 0 auto 0;
-    width: 352px;
+    /* width: 352px; */
     display: flex;
     align-content: center;
     justify-content: center;

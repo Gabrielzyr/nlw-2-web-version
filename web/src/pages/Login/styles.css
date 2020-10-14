@@ -136,8 +136,9 @@ a {
 
   form  {
     margin: 0 auto 0;
-    width: 352px;
+    /* width: 352px; */
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
   } 
